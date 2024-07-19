@@ -13,7 +13,7 @@ The AI detecting the position of the body and identifying the knife
 2. Make sure you have installed jetson-inference and python3
 3. Download the labels.txt, securityAI-final.py, and the knife-rifledetect.onnx files
 4. drag these three downoaded files into a new folder outside of the jetson-inference folder
-5. navigate into the new folder containing the files in the terminal using ```cd (folder name)```
+5. navigate into the new folder containing the files in the terminal using ```cd <folder name>```
 6. run the securityAI-final.py using ```python3 securityAI-final.py```
 7. to view the output of the live camera, go to ```http://<nano-ip>:8554```
 
