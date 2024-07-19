@@ -17,9 +17,6 @@ The AI detecting the position of the body and identifying the knife
 6. run the securityAI-final.py using ```python3 securityAI-final.py```
 7. to view the output of the live camera, go to ```http://<nano-ip>:8554```
 
-[View a video explanation here](video link)
-
-
 
 ## The Algorithm
 
