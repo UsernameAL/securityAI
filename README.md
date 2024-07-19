@@ -11,7 +11,7 @@ The AI detecting the position of the body and identifying the knife
 
 1. Make sure your Jetson Nano is connected to VSCode and you have camera connected to the nano
 2. Make sure you have installed jetson-inference and python3
-3. Download the [labels.txt](https://github.com/UsernameAL/securityAI/blob/1877d2d19db1e2ea954d246b00a8070268789326/labels.txt), securityAI-final.py, and the knife-rifledetect.onnx files
+3. Download the [labels.txt](https://github.com/UsernameAL/securityAI/blob/1877d2d19db1e2ea954d246b00a8070268789326/labels.txt), [securityAI-final.py](https://github.com/UsernameAL/securityAI/blob/93e068bc0bc670769f269b49fd696e7ddebcaa01/securityAI-final.py), and the [knife-rifledetect.onnx](https://github.com/UsernameAL/securityAI/blob/49a217d03561f9ea55479e8d4c83651b29d8d8f1/knife-rifledetect.onnx) files
 4. drag these three downoaded files into a new folder outside of the jetson-inference folder
 5. navigate into the new folder containing the files in the terminal using ```cd <folder name>```
 6. run the securityAI-final.py using ```python3 securityAI-final.py```
