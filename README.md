@@ -3,7 +3,8 @@ an AI image identification project that is a security system
 it can identify dangerous weapons and suspicious people, and then alerting users of danger
 
 ![Screenshot 2024-07-18 195525](https://github.com/user-attachments/assets/50807d9c-539a-4d84-b8af-8ceb92f3a7ff)
-     The AI detecting the position of the body and identifying the knife
+
+The AI detecting the position of the body and identifying the knife
 
 ## The Algorithm
 
