@@ -6,6 +6,16 @@ it can identify dangerous weapons and suspicious people, and then alerting users
 
 The AI detecting the position of the body and identifying the knife
 
+
+## Running this project
+
+1. Add steps for running this project.
+2. Make sure to include any required libraries that need to be installed for your project to run.
+
+[View a video explanation here](video link)
+
+
+
 ## The Algorithm
 
 this code imports the detectNet object identification AI and the poseNet pose identification AI 
@@ -27,9 +37,4 @@ display = videoOutput("webrtc://@:8554/output")
 
 These lines of code initialize the AI and the live camera feed
 
-## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
-
-[View a video explanation here](video link)
