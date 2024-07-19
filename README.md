@@ -20,13 +20,12 @@ The AI detecting the position of the body and identifying the knife
 
 ## The Algorithm
 
-The explanation of the code is in the code itself
+The explanation of the code is in the code below
 
 one special thing is that the suspicion of a person is detected by calculating the ratio of the shoulders and wrists
 
 you can modify this method if you want by using the cordinates from poseNet
 
-the code
 
 ```
 #!/usr/bin/python3
