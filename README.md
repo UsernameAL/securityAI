@@ -9,8 +9,13 @@ The AI detecting the position of the body and identifying the knife
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Make sure your Jetson Nano is connected to VSCode and you have camera connected to the nano
+2. Make sure you have installed jetson-inference and python3
+3. Download the labels.txt, securityAI-final.py, and the knife-rifledetect.onnx files
+4. drag these three downoaded files into a new folder outside of the jetson-inference folder
+5. navigate into the new folder containing the files in the terminal using ```cd (folder name)```
+6. run the securityAI-final.py using ```python3 securityAI-final.py```
+7. to view the output of the live camera, go to ```http://<nano-ip>:8554```
 
 [View a video explanation here](video link)
 
@@ -18,23 +23,6 @@ The AI detecting the position of the body and identifying the knife
 
 ## The Algorithm
 
-this code imports the detectNet object identification AI and the poseNet pose identification AI 
-these two AI networks are essential to the code
-
-net = detectNet(
-    model="knife-rifledetect.onnx",
-    labels="labels.txt",
-    input_blob="input_0",
-    output_cvg="scores",
-    output_bbox="boxes",
-    threshold=0.5
-)
-
-poseNet = poseNet("resnet18-body", threshold=0.15)
-
-camera = videoSource("v4l2:///dev/video0")
-display = videoOutput("webrtc://@:8554/output")
-
-These lines of code initialize the AI and the live camera feed
+The explanation of the code is in the code itself
 
 
