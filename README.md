@@ -28,7 +28,8 @@ you can modify this method if you want by using the cordinates from poseNet
 
 the code
 
-```#!/usr/bin/python3
+```
+#!/usr/bin/python3
 
 from jetson_inference import detectNet
 from jetson_inference import poseNet
@@ -101,5 +102,6 @@ while True:
         #calculating the ratio of distances, if lower than the ratio, person is counted as suspicious, the ratio is currently 0.6
     
     display.Render(img)
-    display.SetStatus("Object Detection | Network {:.0f} FPS".format(net.GetNetworkFPS()))```
+    display.SetStatus("Object Detection | Network {:.0f} FPS".format(net.GetNetworkFPS()))
+```
 
